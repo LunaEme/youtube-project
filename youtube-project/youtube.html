@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube's legal clone!</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!--Main header, composed of 3 sections as can be seen in the page itself. Left, middle and right sections-->
+      <div class="left-section">
+        <button class="hamburger-button">
+          <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="" />
+        </button>
+        <img class="youtube-logo" src="icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-box" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img style="height: 60%" src="icons/search.svg" alt="" />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img style="height: 65%" src="icons/voice-search-icon.svg" alt="" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <button class="upload-button" title="Create">
+          <img style="height: 60%" src="icons/upload.svg" alt="" />
+        </button>
+        <button class="notification-button" title="Notifications">
+          <img style="height: 60%" src="icons/notifications.svg" alt="" />
+          <div class="notif-amount">1</div>
+        </button>
+        <button class="pfp-button">
+          <img class="pfp-picture" src="icons/pfp.jpg" alt="" />
+        </button>
+      </div>
+    </header>
+    <header class="sub-header">
+      <!--Subheader, recommended categories section-->
+      <button class="recommended-categories-button-all">All</button>
+      <button class="recommended-categories-button">Gaming</button>
+      <button class="recommended-categories-button">Music</button>
+      <button class="recommended-categories-button">Rocket League</button>
+      <button class="recommended-categories-button">Tomorrowland</button>
+      <button class="recommended-categories-button">Comedy</button>
+      <button class="recommended-categories-button">Test Category 1</button>
+      <button class="recommended-categories-button">Test Category 2</button>
+      <button class="recommended-categories-button">Test Category 3</button>
+      <button class="recommended-categories-button">Test Category 4</button>
+    </header>
+    <nav class="sidebar">
+      <!--Left sidebar-->
+      <div class="sidebar-container">
+        <img class="sidebar-icon" src="icons/home.svg" alt="" />Home
+      </div>
+      <div class="sidebar-container">
+        <img class="sidebar-icon" src="icons/explore.svg" alt="" />
+        Explore
+      </div>
+      <div class="sidebar-container">
+        <img class="sidebar-icon" src="icons/subscriptions.svg" alt="" />
+        Subscriptions
+      </div>
+      <div class="sidebar-container">
+        <img class="sidebar-icon" src="icons/library.svg" alt="" />
+        Library
+      </div>
+    </nav>
+    <main class="video-grid">
+      <!--Video grid, containing all the videos. video-grid can be changed in video.css-->
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/1.webp" alt="" />
+          <div class="video-duration">6:31:24</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/1.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML & CSS Full Course - Beginner to Pro (2022)
+            </p>
+            <p class="video-creator">SuperSimpleDev</p>
+            <p class="video-stats">2.6M views &#183; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/2.webp" alt="" />
+          <div class="video-duration">1:30:31</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/2.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              ANNA - Ultra Music Festival Miami 2022 | UMF
+            </p>
+            <p class="video-creator">ANNA &#9834;</p>
+            <p class="video-stats">266K views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/3.webp" alt="" />
+          <div class="video-duration">13:29</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/3.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              La comida aquí es DEMASIADO deliciosa | Madrid Vlog
+            </p>
+            <p class="video-creator">Luisito Comunica &#10003;</p>
+            <p class="video-stats">3.1M views &#183; 2 weeks ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/4.webp" alt="" />
+          <div class="video-duration">12:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/4.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Top 5 Plays of the Finals! | Worlds 2022</p>
+            <p class="video-creator">LoL Esports &#10003;</p>
+            <p class="video-stats">168K views &#183; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/5.webp" alt="" />
+          <div class="video-duration">5:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/5.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Cabra Degollada, Mojón, Pan de Azúcar - MTB - Córdoba - Argentina
+            </p>
+            <p class="video-creator">Hugo Apat</p>
+            <p class="video-stats">5.3K views &#183; 2 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/6.webp" alt="" />
+          <div class="video-duration">2:03:31</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/6.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Enrico Sangiuliano | Tomorrowland 2022 - WE1
+            </p>
+            <p class="video-creator">Tomorrowland &#10003;</p>
+            <p class="video-stats">131K views &#183; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/7.webp" alt="" />
+          <div class="video-duration">7:36</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/7.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              SSW vs SHR Game 4 Highlights Final | LoL World Championship
+              2014...
+            </p>
+            <p class="video-creator">Kaza LoL LCS Highlights</p>
+            <p class="video-stats">159k views &#183; 8 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/8.webp" alt="" />
+          <div class="video-duration">1:48</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/8.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Se enojo limón</p>
+            <p class="video-creator">BAUTI EL CRACK</p>
+            <p class="video-stats">10M views &#183; 7 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/9.webp" alt="" />
+          <div class="video-duration">17:05</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/9.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Miss Monique at the Biosphere Museum, in Montreal, Canada for
+              Cercle
+            </p>
+            <p class="video-creator">Cercle &#10003;</p>
+            <p class="video-stats">660K views &#183; 6 days ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="thumbnails/10.webp" alt="" />
+          <div class="video-duration">17:05</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="profile-picture">
+            <img class="creator-pfp" src="creators-pfp/10.jpg" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kitten thinks I’m stuck in camera (FULL VERSION)
+            </p>
+            <p class="video-creator">ninerlives &#10003;</p>
+            <p class="video-stats">917K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
